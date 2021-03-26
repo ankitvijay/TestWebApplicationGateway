@@ -9,7 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="wwwroot\Web.config">
+      <None Include="wwwroot\web.config">
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
