@@ -27,6 +27,8 @@ namespace TestWebApplicationGateway
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseHealthChecks("/health");
