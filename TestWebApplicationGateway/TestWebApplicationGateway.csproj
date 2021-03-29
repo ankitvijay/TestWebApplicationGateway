@@ -16,4 +16,13 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Update="wwwroot\FirstApplication1.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\FirstApplication2.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
